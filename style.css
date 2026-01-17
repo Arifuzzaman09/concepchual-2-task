@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #111111;
+}
+.nav-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.nav-container h2{
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+}
+.nav-container ul{
+    display: flex;
+    gap: 47px;
+    border: 1px solid gray;
+    padding: 11px 0px;
+    border-radius: 39px;
+}
+.nav-container ul li{
+    list-style: none;
+}
+.nav-container ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+.nav-container .nav-home{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 46px;
+}
+.nav-container .nav-about{
+    margin-right: 10px;
+}
+.nav-container .menu{
+    color: #FFFFFF;
+    display: none;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+}
+.container .left h1{
+     font-size: 4rem;
+     color: #FFFFFF;
+      max-width: 550px;
+}
+.container .left>p{
+    color: #FFFFFF;
+    margin:28px 0 ;
+    max-width: 550px;
+}
+.left .first-btn{
+    padding: 16px 40px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    font-size: 1.12rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 42px;
+    cursor: pointer;
+}
+.left .second-btn{
+    padding: 16px 40px;
+    background:transparent;
+    border: 1px solid gray;
+    color: #FFFFFF;
+    font-size: 1.12rem;
+    font-weight: 600;
+    border-radius: 42px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.right {
+
+position: relative;
+}
+.right img{
+    width: 100%;
+}
+.right .tool-btn{
+    padding: 20px 30px;
+    background-color: rgba(90, 89, 89, 0.185);
+    border-radius: 12px;
+    position: absolute;
+    top: 150px;
+    right: 1px;
+    border: none;
+    color: #FFFFFF;
+}
+.right .tool-btn h3{
+    font-size: 2.5rem;
+}
+.right .tool-btn-2{
+    padding: 20px 30px;
+    background-color: rgba(90, 89, 89, 0.185);
+    border-radius: 12px;
+    position: absolute;
+    top: 400px;
+    right: 310px;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+.tool-btn-2 .ball{
+   background-color: #E6533C;
+   width: 30px ;
+   height: 30px;
+   border-radius: 50%;
+}
+.tool-btn-2 h3{
+    font-size: 2.5rem;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+     .nav-container {
+    padding-top: 40px;
+    padding: 10px;
+}
+.nav-container ul {
+    display: none;
+}
+.nav-container .menu{
+    color: #FFFFFF;
+    display: inline;
+}
+.container {
+   flex-direction: column;
+   margin-top:  50px;
+   text-align: center;
+   padding: 10px;
+   gap: 50px;
+}
+.right .tool-btn-2 {
+    position: absolute;
+    left: 10px;
+}
+.btn-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+}
