@@ -67,6 +67,7 @@ body{
     color: #FFFFFF;
     margin:28px 0 ;
     max-width: 550px;
+    color: gray;
 }
 .left .first-btn{
     padding: 16px 40px;
@@ -147,6 +148,7 @@ position: relative;
     font-size: 0.87rem;
     text-align: center;
     margin-bottom: 58px;
+    color: gray;
 }
 .habit-card-container{
     padding: 0 25px;
@@ -167,6 +169,7 @@ position: relative;
 }
 .card>p{
     font-size: 0.87rem;
+    color: gray;
 }
 .run-container{
     max-width: 1170px;
@@ -190,6 +193,7 @@ position: relative;
 .left p{
     font-size: 0.87rem;
     margin-bottom: 34px;
+    color: gray;
 }
 .left button{
     background-color: #E6533C;
@@ -228,6 +232,7 @@ position: relative;
     font-size: 0.87rem;
     margin-bottom: 58px;
     width: 650px;
+    color: gray;
 }
 .box-2{
     grid-column:  span 2;
@@ -257,6 +262,7 @@ position: relative;
     max-width: 1170px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 88px;
 }
 .team-container h2{
     font-size: 3rem;
@@ -267,6 +273,7 @@ position: relative;
     width: 670px;
     margin: auto;
     margin-bottom: 58px;
+    color: gray;
 }
 .team-img-container img{
     width: 100%;
@@ -287,6 +294,76 @@ position: relative;
     top: 250px;
     left: 40px;
 }
+.main-container{
+    background-color: #ffffff10;
+}
+.fitness-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    padding-top: 66px;
+    padding-bottom: 79px;
+}
+.fitness-container h2{
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+    margin-bottom: 20px;
+}
+.fitness-container p{
+    font-size: 0.87rem;
+    color: grey;
+}
+.get h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+.get li{
+    list-style: none;
+    margin-bottom: 20px;
+    color: gray;
+    cursor: pointer;
+}
+.main-container hr{
+    max-width: 1170px;
+    margin: 0 auto;
+    opacity: 0.30;
+    margin-bottom: 36px;
+}
+.main-container .copyright{
+     text-align: center;
+    font-size: 1.25rem;
+    color: #ffffff6e;
+    padding-bottom: 35px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -364,5 +441,13 @@ position: relative;
 .team-img-container {
     grid-template-columns: repeat(1, 1fr);
     margin: 15px;
+}
+.fitness-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    padding: 20px;
+}
+.main-container hr {
+    margin: 41px 20px;
 }
 }
