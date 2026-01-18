@@ -209,6 +209,7 @@ position: relative;
 .Trainings-container{
     max-width: 1170px;
     margin: 0 auto;
+    margin-bottom: 88px;
 }
 .img-container img{
     width: 100%;
@@ -251,10 +252,41 @@ position: relative;
      position: absolute;
     z-index: 1;
     top: 140px;
-    
 }
-
-
+.team-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.team-container h2{
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+.team-container>p{
+    font-size: 0.87rem;
+    width: 670px;
+    margin: auto;
+    margin-bottom: 58px;
+}
+.team-img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    background-color: gray;
+    gap: 20px;
+    border-radius: 18px;
+    position: relative;
+}
+.train-1>p{
+    position: absolute;
+    top: 250px;
+    left: 40px;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -318,10 +350,19 @@ position: relative;
 }
 .Trainings-container {
     padding: 20px;
+    margin-bottom: 50px;
 }
 .Trainings-container>p {
     font-size: 0.87rem;
     margin-bottom: 58px;
     width: 100%;
+}
+.team-container>p {
+    width:100%;
+    margin-bottom: 50px;
+}
+.team-img-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 15px;
 }
 }
